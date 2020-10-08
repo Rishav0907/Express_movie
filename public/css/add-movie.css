@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@300&display=swap');
+body{
+    position: relative;
+}
+#page-work{
+    margin-left: 45%;
+    font-family: 'Grandstander';
+    margin-top: 30px;
+
+}
+.container{
+    position: absolute;
+    left: 39%;
+    top: 100%;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 30px;
+}
+.movie-details{
+    display: block;
+    padding: 10px;
+    margin: 20px;
+    align-self: center;
+}
+.button{
+    display: inline-block;
+}
+.details{
+    text-align: center;
+    width: 65px;
+    height: 38px;
+    color: teal;
+    background-color: white;
+    border: 1px solid teal;
+    box-shadow: 1px 1px teal;
+}
+#detail{
+    height: 80px;
+    width: 200px;
+}

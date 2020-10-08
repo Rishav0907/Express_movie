@@ -1,0 +1,18 @@
+<%- include('include/header.ejs') %> 
+<head>
+    <link rel="stylesheet" href="/css/add-movie.css">
+</head>
+<body>
+    <h2 id="page-work">Add Movie</h2>
+    <div class="container">
+        <form action="/admin/add-movie" method="POST">
+            <input type="text" placeholder="Poster-Link" class="movie-details" name="link" required>
+            <input type="text" placeholder="movie-name" class="movie-details" name="name" required>
+            <input type="text" placeholder="Price" class="movie-details" name="price" required>
+            <textarea name="details" class="movie-details" id="detail" cols="400" rows="400" required></textarea>
+            <div class="buttons">
+                <input type="submit" class="movie-details button details">
+            </div>
+        </form>
+    </div>
+</body>
